@@ -1,0 +1,64 @@
+body {
+
+    background-color: rgb(255, 251, 240);
+
+    .hp_title {
+        text-align: center;
+        font-family: Georgia;
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 0.25;
+        top: 0;
+        .hp_title_hp {
+            color: rgb(138, 85, 0);            
+        };
+        .hp_title_atbod {
+            color:rgb(168, 99, 74);
+        };
+        .characters {
+            margin-top: 50;
+            font-family: Georgia;
+            font-size: 0.7em;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(120, 58, 75);
+        }
+    };
+
+    .container {
+        text-align: center;
+        background: rgb(255, 252, 249);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px #f05c0080;
+    }
+
+    .navigation button {
+        font-family: Arial;
+        font-weight: bold;
+        background-color: rgb(70, 26, 3);
+        color: rgb(255, 235, 220);
+        border-color: #ff7f30;
+        border-width: 4px;
+        box-shadow: #d05000;
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 7px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .data-display {
+        h3 {
+            font-size: 3.5em;
+            font-weight: 1000;
+        };
+
+        h2 {
+            font-size: xxx-large;
+        };
+    };
+
+};
+

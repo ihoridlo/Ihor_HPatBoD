@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+<html>
+
+<head>
+    <title>Harry Potter and the Base of Data</title>
+</head>
+
+<body>
+
+    <div class="hp_title">
+        <div class="hp_title_hp">
+            <h1>Harry Potter</h1>
+        </div>
+        <div class="hp_title_atbod">
+            <h4>and the Base of Data</h4>
+        </div>
+        <br>
+        <br>
+        <div class="characters">
+            <h1>Characters:</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="data-display">
+            <h2 id="id"></h2>
+            <h3 id="name"></h3>
+            <img id="image"/>
+            <h2 id="birthdate"></h2>
+            <h2 id="species"></h2>
+            <h2 id="ancestry"></h2>
+            <h2 id="wand"></h2>
+            <h2 id="patronus"></h2>
+            <h2 id="inhogwarts"></h2>
+            <h2 id="alive"></h2>
+        </div>
+
+        <div class="navigation">
+            <button class="prev">↶ Previous</button>
+            <button class="next">Next ↷</button>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + data.length) % data.length;
+        displayData();
+    });
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % data.length;
+        displayData();
+    });
+</script>
+
+</html>
